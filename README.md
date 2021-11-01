@@ -1,3 +1,18 @@
+# Generate Doc
+```
+npm install apidoc -g
+cd api/
+apidoc -i src -o apidoc
+```
+
+# Run Docker
+```
+docker compose up
+```
+
+# Requests
+Postman file ByCoders_.js
+
 # Desafio programação - para vaga desenvolvedor
 
 Por favor leiam este documento do começo ao fim, com muita atenção.

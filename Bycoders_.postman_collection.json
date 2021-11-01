@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "4d1e0371-a76e-4da8-a219-de155ccc2107",
+		"name": "Dev-desafio-Bycoders_",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:6868/list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6868",
+					"path": [
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Import",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/D:/Code/desafio-dev/CNAB.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:6868/cnab",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6868",
+					"path": [
+						"cnab"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
